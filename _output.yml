@@ -1,15 +1,15 @@
-bookdown::pdf_book:
-  base_format: tufte::tufte_book
-  includes:
-    in_header: preamble.tex
-  template: tufte-handout.tex
-  latex_engine: xelatex
-  citation_package: natbib
-  keep_tex: true
-  fig_width: 7
-  fig_height: 4
-  highlight: tango
-  pandoc_args: --top-level-division=chapter
+# bookdown::pdf_book:
+#   base_format: tufte::tufte_book
+#   includes:
+#     in_header: preamble.tex
+#   template: tufte-handout.tex
+#   latex_engine: xelatex
+#   citation_package: natbib
+#   keep_tex: true
+#   fig_width: 7
+#   fig_height: 4
+#   highlight: tango
+#   pandoc_args: --top-level-division=chapter
 bookdown::gitbook:
   css: style.css
   split_by: "chapter+number"
@@ -20,10 +20,9 @@ bookdown::gitbook:
       before: |
         <li><a href="./"></a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-        <li><a href="https://github.com/ismayc/rbasics-book/issues" target="blank">Create a GitHub Issue</a></li>
-        <li><a href="mailto:chester.ismay@gmail.com" target="blank">Email Chester</a></li>
+        <li><a href="https://github.com/emielvanloon/rbasics-book/issues" target="blank">Create a GitHub Issue</a></li>
+        <li><a href="mailto:e.e.vanloon@uva.nl" target="blank">Comment by sending an email</a></li>
     edit:
-      link: https://github.com/ismayc/rbasics-book/edit/master/%s
+      link: https://github.com/emielvanloon/rbasics-book/edit/master/%s
 #bookdown::epub_book: default
 #bookdown::word_document2: default
